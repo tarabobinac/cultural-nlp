@@ -1,7 +1,6 @@
 import streamlit as st
 from utils.session import session_setup
 from utils.chatbot import intro_response
-from utils.database import submit_to_database
 from utils.components import (show_response_count, finish_button, done_button, show_finish_status,
                               add_reaction_buttons, get_input_and_gen_response, comments)
 
