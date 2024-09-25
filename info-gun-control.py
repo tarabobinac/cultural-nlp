@@ -38,9 +38,6 @@ def chat_bubble_css():
 
 @st.cache_data
 def generate_introduction():
-    st.session_state['introduction'] = "hi"
-
-    '''
     st.session_state['introduction'] = intro_response(
         """Imagine you are a person from the United States moderating a discussion about gun control. Based on 
         the cultural values from the United States, provide your communication partner with stances why an average 
@@ -51,8 +48,6 @@ def generate_introduction():
         freely. You are not expected to be an expert. Also, no consensus is necessary, you do not need to agree with 
         the stances I provide. My role is to facilitate your understanding of gun control across cultural viewpoints. 
         Please start off by telling us something that puzzles you about this topic.\"""")
-    '''
-
     return st.session_state['introduction']
 
 
