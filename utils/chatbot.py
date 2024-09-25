@@ -21,8 +21,7 @@ def intro_response(user_input):
         "messages": [
             {
                 "role": "system",
-                "content": """Respond with a list of pros and cons on the topic at hand. You finish your response within
-                 512 tokens."""
+                "content": """Respond with a list of pros and cons on the topic at hand."""
             },
             {
                 "role": "user",
