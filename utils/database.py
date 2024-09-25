@@ -16,13 +16,11 @@ def submit_to_database(survey_type):
 
     survey_id = st.session_state['survey_id']
     response_count = st.session_state['response_count']
-    prompt = st.session_state['prompt']
     timestamp = datetime.datetime.now()
 
     data = {
         '_id': survey_id,
         'response_count': response_count,
-        'prompt': prompt,
         'survey_type': survey_type,
         'timestamp': timestamp
     }
