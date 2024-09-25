@@ -120,7 +120,6 @@ def show_feedback_page():
 
     if 'done_pressed' in st.session_state and st.session_state['done_pressed']:
         st.success("Comments submitted!")
-    submit_to_database('info-gun-control')
 
 
 if __name__ == '__main__':
