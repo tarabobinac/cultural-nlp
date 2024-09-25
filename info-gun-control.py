@@ -35,7 +35,6 @@ def chat_bubble_css():
     """, unsafe_allow_html=True)
 
 
-@st.cache_data
 def generate_introduction():
     st.session_state['introduction'] = intro_response(
         """Imagine you are a person from the United States moderating a discussion about gun control. Based on 
