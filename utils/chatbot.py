@@ -7,7 +7,7 @@ minimum_responses = 1
 warning_responses = 10
 maximum_responses = 15
 
-DEEPINFRA_TOKEN = os.getenv("DEEPINFRA_TOKEN", st.secrets["llama_3.1_api_key"])
+DEEPINFRA_TOKEN = os.getenv("DEEPINFRA_TOKEN", st.secrets["llama_api_key"])
 
 url = "https://api.deepinfra.com/v1/openai/chat/completions"
 headers = {
