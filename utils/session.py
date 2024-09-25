@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 import string
 import random
-from chatbot import intro_response
+from utils.chatbot import intro_response
 
 
 # Generate a 10 characters ID of pattern:
